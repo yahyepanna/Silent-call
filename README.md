@@ -1,6 +1,10 @@
-# SilentGroupCall
+# SilentGroupCall — start Discord calls without ringing anyone
 
-A Vencord userplugin that lets you start a Discord DM or group-DM call **without ringing** the other members. When you press the call button, Discord's client normally fires a separate "ring" request that pushes an incoming-call notification (sound + popup) to everyone. This plugin intercepts that request at runtime and skips it when the call is in scope. You still join the call and the "Join Call" bar still appears for everyone — they just don't get buzzed. Nothing else about the call changes; members can see it and join whenever they like.
+A **Vencord plugin** that lets you start a Discord voice call — in a **DM or group DM** — **silently**, without ringing the other members or sending them the incoming-call notification. When you press the call button, Discord's client normally fires a separate "ring" request that pushes an incoming-call notification (sound + popup) to everyone. This plugin intercepts that request at runtime and skips it when the call is in scope. You still join the call and the "Join Call" bar still appears for everyone — they just don't get buzzed. Nothing else about the call changes; members can see it and join whenever they like.
+
+**Use cases:** start a group call without waking everyone up at night, open a voice channel in a group chat without the ring spam, call a friend without the loud incoming-call sound, or just quietly sit in a call and let people trickle in when they notice.
+
+*If you searched for: discord call without ringing · silent discord call · start group call without notification · discord no ring plugin · disable call ringing — this is that.*
 
 ## Install
 
